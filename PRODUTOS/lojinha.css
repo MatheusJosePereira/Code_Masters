@@ -1,0 +1,272 @@
+header{
+    width: 100%;
+    height: 400px;
+    background-image:url(graos-de-cafe-no-cafe-misturado-ou-cacau-em-po_114579-61799.webp) ; opacity: 90%;
+    background-size: 2000px;
+    size: ;
+    
+    position: relative;
+    ;
+    
+}
+body{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left:;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar-brand span{
+    color: #D98825;
+}
+
+.navbar-nav i{
+    color: #D98825;
+}
+
+
+#primeira{
+    height: 250px;
+    width:100% ;
+    background-color: white;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    ;
+
+}
+
+#shakes{
+    height: 184px;
+    width: 332px;
+    background-color: brown;
+    border-radius: 50px;
+    background-image: url(close-up-de-milkshake-de-chocolate-com-creme_23-2148371194.webp);
+    background-position: 5px;
+    background-size: 320px;
+    
+
+
+}
+#milk{
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 20;
+    font-family:fantasy;
+    
+}
+#choc{ height: 184px;
+    width: 332px;
+    background-color: rgb(254, 252, 252);
+    border-radius: 50px;
+    background-image: url(400221499.png);
+    background-position: -10px;
+    background-size:350px;
+    text-align:y;
+
+
+}
+
+p:hover{
+    color: #E48969;
+    
+}
+
+#fitness{
+    text-align: center;
+    margin-top: 80px;
+    background-color:#D9D9D9 ;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10 px;
+
+}
+
+.produtos{
+    height: 350px;
+    width: 100%;
+    background-color:#D9D9D9 ;
+    display: flex;
+    justify-content: space-around;
+    margin: ;
+}
+.descrição{
+    height: 148px;
+    width: 200px;
+    background-color:rgb(242, 246, 249) ;
+
+}
+#descrição{
+    height: 80px;
+    width: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    position: relative;
+    justify-content: space-around;}
+
+
+.price{
+    color: #E48969;
+    text-align: center;
+    font-family: montserrat;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16;
+}
+.nome{
+    font-family: montserrat;
+    font-weight:bold ;
+    text-align:center ;
+    font-family: fantasy  ;
+    font-size: 14;
+}
+#adicionar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap :wrap;
+}
+#blocos{
+    background-color:#D9D9D9;
+    background-color:;
+    border-radius: 8px;
+    width: 190px;
+    height: 35px;
+    border: solid 2px #D98825;
+    text-align: center;
+    padding-top:; 
+    position: relative;
+
+}
+
+#blocos :hover{
+    background-color: aliceblue;
+
+}
+#AA{
+    
+    
+    font-style: normal;
+    font-size: 12;
+    text-align: center;
+    font-weight: bold;
+}
+img{
+ height: 200px;
+ width: 200px;
+ fit
+
+
+}
+  
+img :hover
+{
+    height: 250px;
+    width: 250px;
+}
+
+.alinhar{
+
+    font-family: montserrat;
+    font-weight:bold ;
+    text-align:right ;
+    font-family: fantasy  ;
+    font-size: 16;
+    padding-right: 40px;
+
+    
+
+}
+.red{ 
+    color: #E48969;
+    font-family: montserrat;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20;
+    padding-right: 20px;
+
+
+}
+#pó{background-image: url(graos-de-cafe-no-cafe-misturado-ou-cacau-em-po_114579-61799.webp);
+    height: 184px;
+    width: 332px;
+    background-color: rgb(254, 252, 252);
+    border-radius: 50px;
+
+    background-position: -10px;
+    background-size:350px;
+
+text-align:center ;}
+
+.cholate{
+    
+    font-family: montserrat;
+    font-weight:bold ;
+    text-align:center ;
+    font-family: fantasy  ;
+    font-size: 20;
+    padding-top: 105px;
+    
+}
+
+footer{
+    width: 100%;
+}
+
+span{
+    color: #D98825;
+}
+
+nav{
+    background-color: white;
+
+}
+
+@media (max-width: 800px) {
+
+    
+    /* Estilos para telas menores, como smartphones */
+
+    
+
+    
+
+        
+        
+
+    
+    #descrição{
+        width: 100%; /* Largura dos itens em tela grande */
+        margin-bottom: 10px; /* Espaçamento entre os itens */
+
+    }
+
+
+
+
+
+
+
+
+
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+
+
+  }
+    

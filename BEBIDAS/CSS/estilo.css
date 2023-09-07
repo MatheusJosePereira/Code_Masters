@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@100;400&display=swap');
+
+body{
+  
+    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    
+}
+#cabecalho{
+    width: 100%;
+    height: 400px;
+}
+
+
+.navbar-brand span{
+    color: #D98825;
+}
+
+.navbar-nav i{
+    color: #D98825;
+}
+
+#anuncio1{
+    margin-bottom: 100px;
+}
+#anuncio2{
+    margin-bottom: 100px;
+}
+
+#anuncio3{
+    margin-bottom: 100px;
+}
+
+#espacamento_2{
+    margin-top: 0px;
+}
+
+#espacamento_3{
+    margin-top: 90px;
+}
+ @keyframes piscar{
+    0%{ opacity: 0;
+   }
+
+   50%{
+    opacity: 1;
+   }
+
+   100%{
+    opacity: 0.5;
+   }
+}
+
+#piscar{
+    background-color: #D98825;
+    -webkit-animation: piscar 1s linear infinite ;
+    -moz-animation: btn-pisca .1s linear infinite;
+   -ms-animation: btn-pisca .1s linear infinite;
+   -o-animation: btn-pisca .1s linear infinite;
+}
+
+
+#piscar{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
+    
+}
+
+#navbar{
+    margin-top: 50px;
+}
+
+.carousel-caption h5{
+    font-size: 40px;
+    color: #fff;
+
+}

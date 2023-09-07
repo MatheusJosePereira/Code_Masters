@@ -1,0 +1,110 @@
+html, body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagem/pexels-mariana-silvestre-4533909\ \(3\).jpg);
+    background-size: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar-brand span{
+    color: #D98825;
+}
+
+.navbar-nav i{
+    color: #D98825;
+}
+
+.titulo{
+    margin-left: 200px;
+    margin-top: 50px;
+    color: #D9A725;
+    text-transform: uppercase;
+}
+
+.white-bg{
+    background-color: #ffffffd4;
+}
+
+#titulo_contato{
+    font-size: 3rem;
+    text-align: left;
+}
+
+.border-danger, .border-bottom, .btn-send:hover{
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-send:hover{
+    box-shadow: 5px 5px 14px 5px #b4131346;
+    cursor: pointer;
+}
+
+#nomes{
+    color: red;
+    border: 2px solid rgba(134, 23, 23, 0.687) !important;
+}
+
+#nomes:active{
+    transition: all 0.4s;
+}
+
+#email{
+    color: red;
+    border: 2px solid rgba(134, 23, 23, 0.687) !important;
+}
+
+#email:active{
+    transition: all 1s;
+    
+}
+
+#mensagem{
+    color: red;
+    border: 2px solid rgba(134, 23, 23, 0.687) !important;
+}
+
+#mensagem:active{
+    transition: all 0.4s;
+}
+
+#piscar{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
+    
+}
+
+@keyframes piscar{
+    0%{ opacity: 0;
+   }
+
+   50%{
+    opacity: 1;
+   }
+
+   100%{
+    opacity: 0.5;
+   }
+}
+
+#piscar{
+    background-color: #D98825;
+    -webkit-animation: piscar 1s linear infinite ;
+    -moz-animation: btn-pisca .1s linear infinite;
+   -ms-animation: btn-pisca .1s linear infinite;
+   -o-animation: btn-pisca .1s linear infinite;
+}
+
+
+.carousel-caption h5{
+    font-size: 40px;
+    color: #fff;
+
+}

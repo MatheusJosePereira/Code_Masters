@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Code Masters</title>
+    <link rel="stylesheet" href="HOME_E_CARRINHO/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="HOME_E_CARRINHO/css/card.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--LINHA DE DESCONTO-->
+    <nav id="piscar" class="navbar navbar-light justify-content-center position-fixed" style="background-color: #FF9557;">
+        <a class="navbar-brand" href="#">20% de desconto CUPOM: Kingdom</a>
+    </nav>
+
+    <!--NAVBAR DE LINKS-->
+    <nav id="navbar" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Chocolate <span>Kingdom</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="BEBIDAS/bebidas.html">Bebidas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="PRODUTOS/lojinha.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Receitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="CONTATOS/contatos.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HOME_E_CARRINHO/checkout.html"><i class="bi bi-basket3-fill"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!--HEADER COM CARROSSEL-->
+    <header id="header" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="HOME_E_CARRINHO/img/taca.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 id="texto-carrossel">Um Mundo Encantado com Chocolate e Vinho!</h5>
+                    <a href="#"><button type="button" id="botao-carrossel" class="btn btn-outline-warning btn-dark text-uppercase py-2 fw-bold text-white">Compre aqui</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="HOME_E_CARRINHO/img/chocolatemorango.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 id="texto-carrossel">Promoções Diariamente</h5>
+                    <a href="#"><button type="button" id="botao-carrossel" class="btn btn-outline-warning btn-dark text-uppercase py-2 fw-bold text-white">Saiba mais</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="HOME_E_CARRINHO/img/sorvete.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 id="texto-carrossel">O Por que de comer chocolate</h5>
+                    <a href="#"><button type="button" id="botao-carrossel" class="btn btn-outline-warning btn-dark text-uppercase py-2 fw-bold text-white">Saiba mais</button></a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button> 
+      </div>
+    </header>
+
+    <section class="container-fluid p-5" style="background-color: #54231F;">
+        <h1 class="titulo">Chocolate com Vinhos <br> e Outras Bebidas</h1>
+        <p class="texto" style="margin-right: 460px;">
+            Comer <span style="color: #9d534d;">chocolate</span> e beber <br> <span style="color: #b41313;">vinho tinto </span> 
+            pode ter alguns benefícios para a saúde do coração. <br> O <span style="color: #9d534d;">chocolate escuro</span>
+            contém antioxidantes que podem melhorar a circulação sanguínea, diminuir a pressão arterial, <br>
+            diminuir os níveis de colesterol e reduzir o risco de derrame1. <br> O <span style="color: #b41313;">vinho tinto</span> 
+            também contém antioxidantes e <br> resveratrol, que podem fornecer benefícios semelhantes</p>
+        <a href="#"><button type="button" id="botao" class="btn btn-outline-warning text-uppercase py-2 fw-bold text-white">Saiba mais <i class="bi bi-arrow-right-short"></i></button></a>
+        <div id="imagem">
+            <img src="HOME_E_CARRINHO/img/vinho.png" alt="">
+        </div>
+    </section>
+
+    <section class="container-fluid p-5" style="background-color: #11080D;">
+        <div id="linha">
+            <img src="HOME_E_CARRINHO/img/linha1.png" alt="">
+        </div>
+        <h2 class="titulo1">Produtos</h2>
+        <div id="linha1">
+            <img style="margin-top: 160px;" src="HOME_E_CARRINHO/img/linha1.png" alt="">
+        </div>
+    </section>
+
+    <section id="produtos" class="container-fluid p-5" style="background-color: #11080D;">
+            
+        <div>
+            <div class="col">
+                <div class="property-card">
+                <a href="#">
+                    <div class="property-image">
+                    <div class="property-image-title">
+                        <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+                    </div>
+                    </div></a>
+                <div class="property-description">
+                    <h5>Chocolate</h5>
+                    <h2>R$ 20,00</h2>
+                </div>
+                <a href="#">
+                    <div class="property-social-icons">
+                    <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="col">
+                <div class="property-card">
+                <a href="#">
+                    <div class="property-image">
+                    <div class="property-image-title">
+                        <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+                    </div>
+                    </div></a>
+                <div class="property-description">
+                    <h5>Chocolate</h5>
+                    <h2>R$ 20,00</h2>
+                </div>
+                <a href="#">
+                    <div class="property-social-icons">
+                    <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div >
+            <div class="col">
+                <div class="property-card">
+                <a href="#">
+                    <div class="property-image">
+                    <div class="property-image-title">
+                        <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+                    </div>
+                    </div></a>
+                <div class="property-description">
+                    <h5>Chocolate</h5>
+                    <h2>R$ 20,00</h2>
+                </div>
+                <a href="#">
+                    <div class="property-social-icons">
+                    <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+
+        <div >
+            <div class="col">
+                <div class="property-card">
+                <a href="#">
+                    <div class="property-image">
+                    <div class="property-image-title">
+                        <!-- Optional <h5>Card Title</h5> If you want it, turn on the CSS also. -->
+                    </div>
+                    </div></a>
+                <div class="property-description">
+                    <h5>Chocolate</h5>
+                    <h2>R$ 20,00</h2>
+                </div>
+                <a href="#">
+                    <div class="property-social-icons">
+                    <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+        <a href="#"><button type="button" id="botao1" class="btn btn-outline-warning text-uppercase py-2 fw-bold text-white">Saiba mais <i class="bi bi-arrow-right-short"></i></button></a>
+    </section>
+
+    <section id="chocolate" class="container-fluid p-5">
+        <h1 class="titulo1">Qual seu tipo  de chocolate?</h1>
+        <a href="#"><button type="button" id="botao2" class="btn btn-outline-success btn-dark text-uppercase py-2 fw-bold" style="color: #86B736;">Fitness</button></a>
+        <a href="#"><button type="button" id="botao3" class="btn btn-outline-warning btn-dark text-uppercase py-2 fw-bold" style="color: #F2E6A7;">Vegetariano</button></a>
+    </section>
+
+    <section id="receitas" class="container-fluid text-center p-5">
+        <h1 class="titulo2">Receitas Destaque</h1>
+        <div class="row row-cols-1 row-cols-md-5 g-5">
+            <div class="col">
+                <img src="HOME_E_CARRINHO/img/1.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col">
+                <img src="HOME_E_CARRINHO/img/2.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col">
+                <img src="HOME_E_CARRINHO/img/3.png" class="card-img-top" alt="...">
+            </div>
+            <div class="col">
+                <img src="HOME_E_CARRINHO/img/4.png" class="card-img-top" alt="...">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid p-5" style="background-color: #54231F;">
+        <h1 class="titulo3">Promoções</h1>
+        <div class=" card-deck row row-cols-1 row-cols-md-4 g-5">
+            <div class="col" style="margin-left: 100px; margin-top: 80px;">
+                <div class="card h-100">
+                    <img  class="card-img-top" src="HOME_E_CARRINHO/img/produtos1.png" alt="Card image cap">
+                    
+                </div>
+            </div>
+            <div class="col" style="margin-top: 80px;">
+                <div class="card h-100">
+                    <img class="card-img-top" src="HOME_E_CARRINHO/img/promocao2.jpeg" alt="Card image cap">
+                </div>
+            </div>
+            <div class="col" style="margin-top: 80px;">
+                <div class="card h-100">
+                    <img class="card-img-top" src="HOME_E_CARRINHO/img/promocao3.jpeg" alt="Card image cap">
+                </div>
+            </div>
+        </div>
+
+
+        <p class="texto1">Receba mais promoções</p>
+
+        <form id="formulario">
+            <div class="form-group" >
+              <label for="exampleInputEmail1" style="color: #fff;">E-mail</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite seu email aqui">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary m-auto">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-lg-start text-muted" style="background-color: #11080D;">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom text-white">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block text-white">
+                <span>Fique conectado com nossas redes sociais:</span>
+            </div>
+            <!-- Left -->
+            
+            <!-- Right -->
+            <div>
+                <a href="#" class="me-4 link-secondary">
+                    <i class="bi bi-envelope-at-fill text-white"></i>
+                </a>
+                <a href="#" class="me-4 link-secondary">
+                    <i class="bi bi-instagram text-white"></i>
+                </a>
+                <a href="#" class="me-4 link-secondary">
+                    <i class="bi bi-linkedin text-white"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        
+        <!-- Section: Links  -->
+        <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                    <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4 text-white">
+                            <a class="navbar-brand" href="#">Chocolate <span>Kingdom</span></a>
+                        </h6>
+                        <p class="text-white">
+                            Nossa empresa é especializada na venda de chocolates finos e vinhos selecionados, cuidadosamente escolhidos para complementar perfeitamente um ao outro.
+                        </p>
+                    </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Links
+                    </h6>
+                    <p>
+                    <a href="index.html" class="text-reset">INICIO</a>
+                    </p>
+                    <p>
+                    <a href="BEBIDAS/bebidas.html" class="text-reset">BEBIDAS</a>
+                    </p>
+                    <p>
+                    <a href="PRODUTOS/lojinha.html" class="text-reset">PRODUTOS</a>
+                    </p>
+                    <p>
+                    <a href="#" class="text-reset">RECEITAS</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    LINKS UTEIS
+                    </h6>
+                    <p>
+                    <a href="#" class="text-reset">POLÍTICA DE PRIVACIDADE</a>
+                    </p>
+                    <p>
+                    <a href="#" class="text-reset">TERMOS E CONDIÇÕES</a>
+                    </p>
+                    <p>
+                    <a href="#" class="text-reset">FORMAS DE PAGAMENTO</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-white">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">CONTATOS</h6>
+                    <p><i class="bi bi-telephone-fill"></i> 123 456 7891</p>
+                    <p><i class="bi bi-envelope-fill"></i> codemaster@contat.com</p>
+                    <p><i class="bi bi-geo-alt-fill"></i> São Paulo SP</p>
+                    
+                    
+                </div>
+                <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            </section>
+            <!-- Section: Links  -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-4 text-white">
+            © Desenvolvido por CodeMasters
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com/</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

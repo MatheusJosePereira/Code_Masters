@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@100;400&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* NAVBAR */
+
+
+.navbar-brand span{
+    color: #D98825;
+}
+
+.navbar-nav i{
+    color: #D98825;
+}
+
+.titulo{
+    margin-left: 200px;
+    margin-top: 50px;
+    color: #D9A725;
+    text-transform: uppercase;
+}
+
+.texto{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: #fff;
+}
+
+#botao{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+#imagem{
+    position: absolute;
+    top: 102%;
+    left: 65%;
+}
+
+#linha img{
+    margin-left: 70px;
+    margin-top: 22px;
+}
+
+#linha1 img{
+    position: absolute;
+    top: 160%;
+    left: 60%;
+}
+
+.titulo1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#botao1{
+    margin-top: 400px;
+    margin-left: -500px;
+}
+
+#chocolate{
+    background-image: url(../img/chocolate.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titulo1{
+    text-align: center;
+    color: #D9A725;
+    text-transform: uppercase;
+}
+
+#botao2{
+   margin-top: 150px;
+   margin-left: 290px;
+}
+
+#botao3{
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+#texto-carrossel{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#botao-carrossel{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.titulo2{
+    text-align: center;
+    color: #D9A725;
+    text-transform: uppercase;
+}
+
+#receitas{
+    background-image: url(../img/gif-trufas-chocolate-ickfd.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 90%;
+}
+
+.titulo3{
+    text-align: center;
+    color: #D9A725;
+    text-transform: uppercase;
+}
+
+.texto1{
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
+#exampleInputEmail1{
+    width: 70%;
+}
+
+#formulario{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.btn{
+    margin-left: 350px;
+}
+
+#piscar{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
+    
+}
+
+@keyframes piscar{
+    0%{ opacity: 0;
+   }
+
+   50%{
+    opacity: 1;
+   }
+
+   100%{
+    opacity: 0.5;
+   }
+}
+
+#piscar{
+    background-color: #D98825;
+    -webkit-animation: piscar 1s linear infinite ;
+    -moz-animation: btn-pisca .1s linear infinite;
+   -ms-animation: btn-pisca .1s linear infinite;
+   -o-animation: btn-pisca .1s linear infinite;
+}
+
+#navbar{
+    margin-top: 50px;
+}
+
+.carousel-caption h5{
+    font-size: 40px;
+    color: #fff;
+
+}
+
+
+
+
+

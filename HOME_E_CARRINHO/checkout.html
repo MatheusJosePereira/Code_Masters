@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Code Masters</title>
+    <link rel="stylesheet" href="css/checkout.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+        <!--NAVBAR DE LINKS-->
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Chocolate <span>Kingdom</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../BEBIDAS/bebidas.html">Bebidas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../PRODUTOS/lojinha.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../CONTATOS/contatos.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="checkout.html"><i class="bi bi-basket3-fill"></i></a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+
+        <main class="container">
+            <body class="bg-light">
+            <div class="container">
+            <div class="py-5 text-center">
+            <h2>Pagamento</h2>
+            </div>
+        
+            <div class="row">
+            <div class="col-md-4 order-md-2 mb-4">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-muted">Seu Carrinho</span>
+                <span class="badge badge-secondary badge-pill">3</span>
+                </h4>
+                <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                    <h6 class="my-0">Nome do Produto</h6>
+                    <small class="text-muted">Descrição breve</small>
+                    </div>
+                    <span class="text-muted">R$12</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                    <h6 class="my-0">Segundo produto</h6>
+                    <small class="text-muted">Descrição breve</small>
+                    </div>
+                    <span class="text-muted">R$8</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                    <h6 class="my-0">Terceiro produto</h6>
+                    <small class="text-muted">Descrição breve</small>
+                    </div>
+                    <span class="text-muted">R$5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                    <h6 class="my-0">Código promocional</h6>
+                    <small>CÓDIGO DE EXEMPLO</small>
+                    </div>
+                    <span class="text-success">-R$5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Total</span>
+                    <strong>R$20</strong>
+                </li>
+                </ul>
+        
+                <form class="card p-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo code">
+                    <div class="input-group-append">
+                    <button type="submit" class="btn btn-secondary">Resgatar</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="col-md-8 order-md-1">
+                <h4 class="mb-3">Endereço de Pagamento</h4>
+                <form class="needs-validation" novalidate>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                    <label for="firstName">Primeiro Nome</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                        Nome válido é obrigatório.
+                    </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                    <label for="lastName">Sobrenome</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                    <div class="invalid-feedback">
+                        O sobrenome válido é obrigatório.
+                    </div>
+                    </div>
+                </div>
+        
+                <div class="mb-3">
+                    <label for="username">Nome de usuário</label>
+                    <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="username" placeholder="Username" required>
+                    <div class="invalid-feedback" style="width: 100%;">
+                        Seu nome de usuário é obrigatório.
+                    </div>
+                    </div>
+                </div>
+        
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Opcional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                        Insira um endereço de e-mail válido para atualizações de envio.
+                    </div>
+                </div>
+        
+                <div class="mb-3">
+                    <label for="address">Endereço</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                    <div class="invalid-feedback">
+                        Favor inserir seu endereço de entrega.
+                    </div>
+                </div>
+        
+                <div class="mb-3">
+                    <label for="address2">2 Endereço<span class="text-muted">(Opcional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                </div>
+        
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                    <label for="country">País</label>
+                    <select class="custom-select d-block w-100" id="country" required>
+                        <option value="">Escolher...</option>
+                        <option>Brasil</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Selecione um país válido.
+                    </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                    <label for="state">State</label>
+                    <select class="custom-select d-block w-100" id="state" required>
+                        <option value="">Escolher...</option>
+                        <option>São Paulo</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Forneça um estado válido.
+                    </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                    <label for="zip">CEP</label>
+                    <input type="text" class="form-control" id="zip" placeholder="" required>
+                    <div class="invalid-feedback">
+                        Código postal necessário.
+                    </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="same-address">
+                    <label class="custom-control-label" for="same-address">O endereço de entrega é o mesmo do meu endereço de cobrança.</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="save-info">
+                    <label class="custom-control-label" for="save-info">Salve esta informação para a próxima vez</label>
+                </div>
+                <hr class="mb-4">
+        
+                <h4 class="mb-3">Pagamento</h4>
+        
+                <div class="d-block my-3">
+                    <div class="custom-control custom-radio">
+                    <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                    <label class="custom-control-label" for="credit">Cartão de Crédito</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                    <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                    <label class="custom-control-label" for="debit">Cartão de Débito</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                    <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                    <label class="custom-control-label" for="paypal">Pix</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                    <label for="cc-name">Nome no cartão</label>
+                    <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                    <small class="text-muted">Nome completo conforme exibido no cartão</small>
+                    <div class="invalid-feedback">
+                        O nome no cartão é obrigatório
+                    </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                    <label for="cc-number">Número do cartão de crédito</label>
+                    <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                    <div class="invalid-feedback">
+                        O número do cartão de crédito é obrigatório
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                    <label for="cc-expiration">Expiração</label>
+                    <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                    <div class="invalid-feedback">
+                        Data de expiração necessária
+                    </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                    <label for="cc-cvv">CVV</label>
+                    <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                    <div class="invalid-feedback">
+                        Código de segurança necessário
+                    </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <button class="btn btn-dark btn-lg btn-block" type="submit">Continuar para finalizar a compra</button>
+                </form>
+            </div>
+            </div>
+        </main>
+        <br>
+
+
+
+
+        <!-- Footer -->
+        <footer id="footer" class="text-center text-lg-start text-muted" style="background-color: #11080D;">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom text-white">
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block text-white">
+                    <span>Fique conectado com nossas redes sociais:</span>
+                </div>
+                <!-- Left -->
+                
+                <!-- Right -->
+                <div>
+                    <a href="#" class="me-4 link-secondary">
+                        <i class="bi bi-envelope-at-fill text-white"></i>
+                    </a>
+                    <a href="#" class="me-4 link-secondary">
+                        <i class="bi bi-instagram text-white"></i>
+                    </a>
+                    <a href="#" class="me-4 link-secondary">
+                        <i class="bi bi-linkedin text-white"></i>
+                    </a>
+                </div>
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+            
+            <!-- Section: Links  -->
+            <section class="">
+                        <div class="container text-center text-md-start mt-5">
+                            <!-- Grid row -->
+                        <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4 text-white">
+                                <a class="navbar-brand" href="#">Chocolate <span>Kingdom</span></a>
+                            </h6>
+                            <p class="text-white">
+                                Nossa empresa é especializada na venda de chocolates finos e vinhos selecionados, cuidadosamente escolhidos para complementar perfeitamente um ao outro.
+                            </p>
+                        </div>
+                    <!-- Grid column -->
+            
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        Links
+                        </h6>
+                        <p>
+                        <a href="../index.html" class="text-reset">INICIO</a>
+                        </p>
+                        <p>
+                        <a href="../BEBIDAS/bebidas.html" class="text-reset">BEBIDAS</a>
+                        </p>
+                        <p>
+                        <a href="../PRODUTOS/lojinha.html" class="text-reset">PRODUTOS</a>
+                        </p>
+                        <p>
+                        <a href="#" class="text-reset">RECEITAS</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+            
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-white">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                        LINKS UTEIS
+                        </h6>
+                        <p>
+                        <a href="#" class="text-reset">POLÍTICA DE PRIVACIDADE</a>
+                        </p>
+                        <p>
+                        <a href="#" class="text-reset">TERMOS E CONDIÇÕES</a>
+                        </p>
+                        <p>
+                        <a href="#" class="text-reset">FORMAS DE PAGAMENTO</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+            
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-white">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">CONTATOS</h6>
+                        <p><i class="bi bi-telephone-fill"></i> 123 456 7891</p>
+                        <p><i class="bi bi-envelope-fill"></i> codemaster@contat.com</p>
+                        <p><i class="bi bi-geo-alt-fill"></i> São Paulo SP</p>
+                        
+                        
+                    </div>
+                    <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+                </section>
+                <!-- Section: Links  -->
+            
+                <!-- Copyright -->
+                <div class="text-center p-4 text-white">
+                © Desenvolvido por CodeMasters
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com/</a>
+                </div>
+                <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
